@@ -1,0 +1,152 @@
+.container {
+  text-align: center;
+  display: flex;
+  height: 90vh;
+  justify-content: center;
+  margin: 2rem 6rem;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+
+.navigation {
+  text-align: center;
+  display: flex;
+  height: 10vh;
+  justify-content: center;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+
+.contact {
+  margin-top: 8%;
+  align-items: center;
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  box-sizing: border-box;
+}
+
+.contact_main {
+  padding: 2% 0;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  vertical-align: top;
+  align-items: center;
+  box-shadow: 0 3rem 6rem rgba(0, 0, 0, 0.15);
+  background-color: hsla(0, 0%, 100%, 0.6);
+  border-radius: 40px;
+}
+
+.profilephoto {
+  clip-path: circle(40% at 50% 50%);
+  width: 16rem;
+  height: 12rem;
+  position: relative;
+}
+
+.contact_maintext {
+  margin-top: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  box-sizing: inherit;
+}
+
+.heading_tertiary {
+  display: block;
+  font-size: 1.7em;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+
+.contact_maintext_info {
+  font-weight: 100;
+  display: block;
+  text-align: left;
+  font-size: 1em;
+}
+
+.contact_maintext_email {
+  display: flex;
+  align-items: center;
+  margin-top: 1.2rem;
+  box-sizing: inherit;
+}
+
+.contact_maintext_emaillogo {
+  height: 3.5rem;
+  margin-right: 2rem;
+}
+
+.contact_maintext_emailspan {
+  font-size: 1.5rem;
+}
+
+.contact_maintext_other {
+  display: flex;
+  margin-top: 1.5rem;
+  justify-content: center;
+}
+
+.contact_maintext_otherlogo {
+  height: 3.5rem;
+  margin-right: 2rem;
+}
+
+.backgroundCircle_bottom {
+  position: fixed;
+  background-size: 35%;
+  height: 50%;
+  width: 50%;
+  background-position: 0 100%;
+  background-repeat: no-repeat;
+  background-image: url("../Assets/circle.png");
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.backgroundCircle_top {
+  position: absolute;
+  background-size: 35%;
+  height: 50%;
+  width: 50%;
+  background-position: 100% 0%;
+  background-repeat: no-repeat;
+  background-image: url("../Assets/circletop.png");
+  top: 0;
+  right: 0;
+  z-index: -1;
+}
+
+/* 
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
