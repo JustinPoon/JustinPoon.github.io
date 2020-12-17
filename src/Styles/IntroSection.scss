@@ -1,0 +1,65 @@
+.intro_section {
+  height: 100vh;
+  justify-content: center;
+  background-color: #f2eeeb;
+  color: #1d2a40;
+  min-width: 40rem;
+}
+
+.introbox {
+  margin: 0 auto;
+  text-align: center;
+  max-width: 50vw;
+  height: 100vh;
+
+  &_namebold {
+    text-align: center;
+    font-size: 6em;
+    font-weight: 900;
+    padding-top: 10rem;
+    line-height: 1.1em;
+    font-family: Source Sans Pro, sans-serif;
+  }
+  &_namelightleft {
+    font-size: 8rem;
+    font-weight: 900;
+    transform: translate(-10rem);
+    padding-top: 10rem;
+    line-height: 1.1em;
+    font-family: Source Sans Pro, sans-serif;
+    font-style: italic;
+  }
+  &_namelightright {
+    font-size: 8rem;
+    font-weight: 900;
+    transform: translate(10rem);
+    padding-top: 0rem;
+    line-height: 1.1em;
+    font-family: Source Sans Pro, sans-serif;
+    font-style: italic;
+  }
+  &_bio {
+    font-size: 1.5rem;
+    font-weight: 900;
+    padding-top: 2rem;
+    line-height: 1.1em;
+    font-family: Source Sans Pro, sans-serif;
+  }
+}
+
+.backgroundlines_bottom {
+  position: absolute;
+  background-size: 100%;
+  height: 50%;
+  width: 50%;
+  background-position: 100% 0%;
+  background-repeat: no-repeat;
+  background-image: url("../Assets/lines.png");
+  bottom: 0;
+  right: 0;
+  z-index: 1;
+  &_header {
+    font-size: 10rem;
+    left: 0;
+  }
+}
