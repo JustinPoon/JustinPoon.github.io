@@ -1,52 +1,36 @@
-.exp_section {
+.exp-section {
   height: 100vh;
+  width: 100vw;
   justify-content: center;
-  color: #1d2a40;
-  margin-bottom: 10rem;
-  min-width: 30rem;
-  max-width: 55rem;
-  margin-left: auto;
-  margin-right: auto;
+  margin-bottom: 10%;
+  padding: 0 15%;
 }
 
-.exp_tile {
+.exp-tile {
   background-color: black;
-  &_1 {
-    display: block;
-    position: relative;
-    width: 100%;
-    border-radius: 20px;
-    transition: all 0.3s ease-in-out;
-    padding: 3em 3em 4em;
-    background-image: linear-gradient(#dbcdff, #a2c7dc);
-    overflow-x: hidden;
-    overflow-y: hidden;
-    &:hover {
-      box-shadow: 1px 1px 1em #b3b8ba;
-    }
-    &:hover img {
-      transform: translateY(-10px);
-    }
+  display: block;
+  position: relative;
+  width: 100%;
+  border-radius: 20px;
+  transition: all 0.3s ease-in-out;
+  padding: 3em 3em 4em;
+  background-image: linear-gradient(#dbcdff, #a2c7dc);
+  overflow-x: hidden;
+  overflow-y: hidden;
+  &:hover {
+    box-shadow: 1px 1px 1em #b3b8ba;
+    cursor: pointer;
   }
-  &_2 {
-    display: block;
-    position: relative;
-    width: 100%;
-    border-radius: 20px;
-    transition: all 0.3s ease-in-out;
-    padding: 3em 3em 4em;
+  &:hover img {
+    transform: translateY(-10px);
+  }
+  &--1 {
     background-image: linear-gradient(#dbcdff, #a2c7dc);
-    overflow-x: hidden;
-    overflow-y: hidden;
+  }
+  &--2 {
     background-image: linear-gradient(to top left, #fbd5e8, #ffeec4);
-    &:hover {
-      box-shadow: 1px 1px 1em #b3b8ba;
-    }
-    &:hover img {
-      transform: translateY(-10px);
-    }
   }
-  &_category {
+  &__category {
     text-align: right;
     display: block;
     font-size: 14px;
@@ -54,24 +38,30 @@
     text-transform: uppercase;
     letter-spacing: 1.5px;
     font-weight: 700;
+    @media (max-width: 767px) {
+      font-size: 10px;
+    }
   }
-  &_title {
+  &__title {
     font-size: 45px;
     text-align: right;
     display: block;
     margin-bottom: 1em;
     letter-spacing: -1px;
+    @media (max-width: 767px) {
+      font-size: 20px;
+    }
   }
-  &_holder {
+  &__holder {
     position: relative;
     max-width: 100%;
     max-height: 500px;
     margin: 0 auto;
     text-align: center;
   }
-  &_image {
+  &__image {
     transition: all 0.3s ease-in-out;
-    max-width: 600px;
+    max-width: 100%;
     max-height: 500px;
     position: relative;
     border-radius: 30px;
