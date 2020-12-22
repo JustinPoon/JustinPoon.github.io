@@ -3,17 +3,22 @@ import ReactDOM from "react-dom";
 import HomePage from "./Pages/HomePage";
 import registerServiceWorker from "./registerServiceWorker";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import "./index.scss";
 
 ReactDOM.render(
   <Router>
     <div>
-      <nav>
-        <ul>
-          <li>
-            <Link to="/">Work</Link>
+      <nav className="navbar">
+        <ul className="nav-menu">
+          <li className="link-spacing">
+            <Link className="link-style" to="/">
+              Work
+            </Link>
           </li>
-          <li>
-            <Link to="/about">About</Link>
+          <li className="link-spacing">
+            <Link className="link-style" to="/about">
+              About
+            </Link>
           </li>
         </ul>
       </nav>
