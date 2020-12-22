@@ -1,22 +1,26 @@
 .exp-section {
-  height: 100vh;
   width: 100vw;
   justify-content: center;
   margin-bottom: 10%;
   padding: 0 15%;
+  @media (max-width: 767px) {
+    height: auto;
+    width: 100vw;
+  }
 }
 
 .exp-tile {
-  background-color: black;
   display: block;
   position: relative;
   width: 100%;
   border-radius: 20px;
   transition: all 0.3s ease-in-out;
   padding: 3em 3em 4em;
-  background-image: linear-gradient(#dbcdff, #a2c7dc);
   overflow-x: hidden;
   overflow-y: hidden;
+  @media (max-width: 767px) {
+    padding: 10% 10% 10%;
+  }
   &:hover {
     box-shadow: 1px 1px 1em #b3b8ba;
     cursor: pointer;
@@ -39,7 +43,8 @@
     letter-spacing: 1.5px;
     font-weight: 700;
     @media (max-width: 767px) {
-      font-size: 10px;
+      font-size: 7px;
+      padding-left: 50%;
     }
   }
   &__title {
@@ -49,7 +54,7 @@
     margin-bottom: 1em;
     letter-spacing: -1px;
     @media (max-width: 767px) {
-      font-size: 20px;
+      font-size: 25px;
     }
   }
   &__holder {
@@ -64,7 +69,7 @@
     max-width: 100%;
     max-height: 500px;
     position: relative;
-    border-radius: 30px;
+    border-radius: 5px;
     display: inline-block;
     vertical-align: middle;
   }
