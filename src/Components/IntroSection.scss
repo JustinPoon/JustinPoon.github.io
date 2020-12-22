@@ -1,0 +1,44 @@
+.intro-section {
+  display: block;
+  height: auto;
+  max-width: 100vw;
+  padding: 5% 10% 20% 10%;
+  @media (max-width: 767px) {
+    height: auto;
+    width: 100vw;
+  }
+  &__name {
+    display: block;
+    font-size: 8rem;
+    font-weight: 900;
+    padding-top: 5%;
+    line-height: 1.1em;
+    font-family: Source Sans Pro, sans-serif;
+    @media (max-width: 767px) {
+      font-size: 4rem;
+    }
+    &--left {
+      text-align: right;
+      padding-right: 50%;
+    }
+    &--right {
+      padding-left: 50%;
+    }
+  }
+  &__bio {
+    font-size: 2rem;
+    font-weight: 500;
+    margin-top: 10%;
+    line-height: 1.3em;
+    font-family: Source Sans Pro, sans-serif;
+    padding: 0 20%;
+    text-align: center;
+    @media (max-width: 767px) {
+      padding: 25% 0 0 0;
+      font-size: 1rem;
+      font-weight: 400;
+      margin-top: 5%;
+      padding: 0 15%;
+    }
+  }
+}
