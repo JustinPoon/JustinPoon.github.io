@@ -16,7 +16,7 @@ ReactDOM.render(
         <nav className="navbar">
           <ul className="nav-menu">
             <li className="link-spacing">
-              <Link className="link-style" to="/">
+              <Link className="link-style" to="/my-app">
                 Work
               </Link>
             </li>
@@ -29,7 +29,7 @@ ReactDOM.render(
         </nav>
         <Switch>
           <Route path="/about" component={About}></Route>
-          <Route exact path="/" component={HomePage}></Route>
+          <Route exact path="/my-app" component={HomePage}></Route>
           <Route
             path="/ProjectManagement"
             component={ProjectManagement}
