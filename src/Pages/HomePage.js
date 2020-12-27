@@ -19,9 +19,7 @@ class HomePage extends Component {
             title="Project Management"
             category="Western Health Internship"
             image={mondaymockup}
-          >
-            <div onClick={() => history.push("/ProjectManagement")}></div>
-          </WorkExperience>
+          ></WorkExperience>
         </Link>
         <Link to={"/Sustainability"} className="link-style--plain">
           <WorkExperience
