@@ -1,26 +1,28 @@
 {
   "files": {
-    "main.css": "/my-app/static/css/main.6ab5f3ef.chunk.css",
-    "main.js": "/my-app/static/js/main.d13cdf3d.chunk.js",
-    "main.js.map": "/my-app/static/js/main.d13cdf3d.chunk.js.map",
+    "main.css": "/my-app/static/css/main.968e1c42.chunk.css",
+    "main.js": "/my-app/static/js/main.c7504381.chunk.js",
+    "main.js.map": "/my-app/static/js/main.c7504381.chunk.js.map",
     "runtime-main.js": "/my-app/static/js/runtime-main.8c504172.js",
     "runtime-main.js.map": "/my-app/static/js/runtime-main.8c504172.js.map",
-    "static/js/2.038f5606.chunk.js": "/my-app/static/js/2.038f5606.chunk.js",
-    "static/js/2.038f5606.chunk.js.map": "/my-app/static/js/2.038f5606.chunk.js.map",
+    "static/js/2.429ce455.chunk.js": "/my-app/static/js/2.429ce455.chunk.js",
+    "static/js/2.429ce455.chunk.js.map": "/my-app/static/js/2.429ce455.chunk.js.map",
     "index.html": "/my-app/index.html",
-    "static/css/main.6ab5f3ef.chunk.css.map": "/my-app/static/css/main.6ab5f3ef.chunk.css.map",
-    "static/js/2.038f5606.chunk.js.LICENSE.txt": "/my-app/static/js/2.038f5606.chunk.js.LICENSE.txt",
+    "static/css/main.968e1c42.chunk.css.map": "/my-app/static/css/main.968e1c42.chunk.css.map",
+    "static/js/2.429ce455.chunk.js.LICENSE.txt": "/my-app/static/js/2.429ce455.chunk.js.LICENSE.txt",
     "static/media/Resume.623b3478.pdf": "/my-app/static/media/Resume.623b3478.pdf",
     "static/media/Sharps.4f2ed30d.png": "/my-app/static/media/Sharps.4f2ed30d.png",
+    "static/media/documentmockup.f919af39.png": "/my-app/static/media/documentmockup.f919af39.png",
     "static/media/github.dbe5ff5d.png": "/my-app/static/media/github.dbe5ff5d.png",
     "static/media/instagram.f1216a69.png": "/my-app/static/media/instagram.f1216a69.png",
     "static/media/linkedin.76a0643b.png": "/my-app/static/media/linkedin.76a0643b.png",
-    "static/media/mondaymockup.5698fa7c.png": "/my-app/static/media/mondaymockup.5698fa7c.png"
+    "static/media/mondaymockup.5698fa7c.png": "/my-app/static/media/mondaymockup.5698fa7c.png",
+    "static/media/placeholder.d2e27a47.jpg": "/my-app/static/media/placeholder.d2e27a47.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.8c504172.js",
-    "static/js/2.038f5606.chunk.js",
-    "static/css/main.6ab5f3ef.chunk.css",
-    "static/js/main.d13cdf3d.chunk.js"
+    "static/js/2.429ce455.chunk.js",
+    "static/css/main.968e1c42.chunk.css",
+    "static/js/main.c7504381.chunk.js"
   ]
 }
