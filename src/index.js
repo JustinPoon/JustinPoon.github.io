@@ -3,30 +3,18 @@ import ReactDOM from "react-dom";
 import HomePage from "./Pages/HomePage";
 import registerServiceWorker from "./registerServiceWorker";
 import { BrowserRouter as Router, Route, Link, Switch } from "react-router-dom";
-import "./index.scss";
 import About from "./Pages/About";
 import ProjectManagement from "./Pages/ProjectManagement";
 import history from "./history";
 import Sustainability from "./Pages/Sustainability";
+import CaseCompetition from "./Pages/CaseCompetition";
+import NavigationBar from "./Components/NavigationBar";
 
 ReactDOM.render(
   <React.StrictMode>
     <Router history={history}>
       <div>
-        <nav className="navbar">
-          <ul className="nav-menu">
-            <li className="link-spacing">
-              <Link className="link-style" to="/my-app">
-                Work
-              </Link>
-            </li>
-            <li className="link-spacing">
-              <Link className="link-style" to="/about">
-                About
-              </Link>
-            </li>
-          </ul>
-        </nav>
+        <NavigationBar />
         <Switch>
           <Route path="/about" component={About}></Route>
           <Route exact path="/my-app" component={HomePage}></Route>
@@ -34,7 +22,8 @@ ReactDOM.render(
             path="/ProjectManagement"
             component={ProjectManagement}
           ></Route>
-          <Route path="/Sustainability" component={Sustainability} />
+          <Route path="/Sustainability" component={CaseCompetition} />
+          <Route path="/CaseCompetition" component={Sustainability} />
         </Switch>
       </div>
     </Router>
